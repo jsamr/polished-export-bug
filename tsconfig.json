@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": false,
+    "lib": ["es6", "es7", "dom"],
+    "strict": true
+  }
+}

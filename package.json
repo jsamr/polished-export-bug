@@ -1,0 +1,37 @@
+{
+  "name": "polished-export-bug",
+  "version": "1.0.0",
+  "description": "A minimal working example for typescript bug",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest module-resolution.test.ts"
+  },
+  "devDependencies": {
+    "@types/jest": "^21.1.6",
+    "jest": "^21.2.1",
+    "ts-jest": "^21.2.2",
+    "typescript": "^2.6.1"
+  },
+  "dependencies": {
+    "polished": "^1.9.0"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "skipBabel": true
+      }
+    },
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": ".*test\\.ts$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ]
+  }
+}
