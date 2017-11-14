@@ -4,7 +4,7 @@
 import unexportedReadbleColor from 'polished/lib/color/readableColor'
 
 /*
- * The following work:
+ * The following works, but typings are lost:
  *
  * import readbleColor = require('polished/lib/color/readableColor')
  *
